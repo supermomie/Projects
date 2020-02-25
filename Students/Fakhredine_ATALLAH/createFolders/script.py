@@ -7,7 +7,7 @@ fileName = data['Prenom']+"_"+data['Nom']
 all_name = [name for name in fileName]
 print(all_name)
 
-
+#
 for name in all_name:
     os.makedirs(name)
     with open(name+"/README.md", 'a'):
